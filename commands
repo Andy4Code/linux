@@ -21,3 +21,10 @@ git status
 
 git push -u origin main
 
+
+
+
+#CURL curl -X [metho] url -H [headers] -d [data]
+curl -X POST https://fraxnit.wtf/daddystore/json 
+   -H "Content-Type: application/json"
+   -d '{"productId": 123456, "quantity": 100}' 
