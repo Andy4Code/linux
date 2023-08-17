@@ -1,0 +1,6 @@
+
+#export db via cli
+mysqldump -u username -p database > output.sql
+
+#import db via cli
+mysql -u username -p database_name < file.sql
