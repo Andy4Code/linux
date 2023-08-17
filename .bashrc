@@ -125,3 +125,5 @@ export PATH=$PATH:~/.local/bin
 
 #export PATH=/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/home/andy/.local/bin:/home/andy/.config/composer/vendor/bin
 export PATH=/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/home/andy/.local/bin:/home/andy/.config/composer/vendor/bin
+#mysql -u root -p
+alias mysql-login ='mysql -u root -p'
