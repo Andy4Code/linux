@@ -13,13 +13,51 @@ mysql -u username -p database_name < file.sql
 #clone project
 git clone <url>
 
+
+
+
+/* Local */
+# add file to stage area / use file or any wildcards
 git add .
-
+#delete from stage area
+git reset head FILE
+# local repo
 git comment -m 'message'
-
+#check status
 git status
 
+
+
+/* Remote */
+
+#grab update
+git pull
+
+#upload changes using git push [ remote name ] [ branch name ]  -u stant for pull then push
 git push -u origin main
+
+#get rempte name
+git remote -v
+
+git remote add origin git@github.com:Andy4Code/linux # using ssh
+
+git config --global user.name "andy" #set value
+git config --global user.name # show value
+git config --global user.name --unset #remove
+
+
+
+
+
+
+
+# Generate Public Key
+ssh-keygen -t rsa -b 4096 -C ???@gmail.com
+
+#Test
+ssh -T git@github.com
+
+
 
 
 
