@@ -33,3 +33,36 @@ git push -u origin main
 git remote add origin https://github.com/Andy4Code/lang-project.git
 git branch -M main
 git push -u origin main
+
+
+
+
+Git
+
+git checkout
+git branch test
+git branch -d test # soft delete
+git branch -D test # force delete
+git branch 
+git checkout -b DevOps #create and switch
+git branch -m Tek #renmae currect branch 
+
+git stash # save ur files in stash
+git stash list # show stash list
+git stash pop # pop or restore and delete stash
+git stash apply # take last element and keep stash
+git stash save "Name of stash"
+git stash pop stash@{2}
+git stash drop $id
+git stash show $id
+git stash clear #remove all
+
+
+git restore --staged 
+git clean -n #show what will be delete
+git clean -f #delete
+
+
+
+git reset --hard #hash
+git push origin main --force
