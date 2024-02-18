@@ -1,0 +1,8 @@
+# to clone private repo use this command
+git clone https://<token>.github.com/<username>/<repo>.git
+
+# to push existing project to private repo
+git add remote origin repoUrl
+git push -u origin main
+enter your user name and token 
+
