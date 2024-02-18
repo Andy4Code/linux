@@ -1,0 +1,25 @@
+php
+
+PHP 8.2.12 (cli) (built: Jan  8 2024 06:21:20) (NTS)
+Copyright (c) The PHP Group
+Zend Engine v4.2.12, Copyright (c) Zend Technologies
+    with Zend OPcache v8.2.12, Copyright (c), by Zend Technologies
+
+node js
+
+andy@debian:~/Desktop/BOX/linux$ node -v
+v18.17.1
+andy@debian:~/Desktop/BOX/linux$ npx -v
+9.6.7
+andy@debian:~/Desktop/BOX/linux$ npm -v
+9.6.7
+
+
+laravel 
+
+andy@debian:~/Desktop/BOX/linux$ laravel -v
+Laravel Installer 5.0.2
+
+
+
+
